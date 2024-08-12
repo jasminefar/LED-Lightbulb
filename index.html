@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LED Bulb</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="scene">
+        <div class="bulb">
+            <div class="light"></div>
+            <div class="glow"></div>
+        </div>
+    </div>
+    <div class="controls">
+        <button id="powerButton">Power</button>
+        <button id="changeColorButton">Change Color</button>
+        <button id="cycleButton">Cycle Colors</button>
+        <input type="range" id="brightnessSlider" min="0" max="100" value="100">
+        <label for="brightnessSlider">Brightness</label>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
